@@ -5,26 +5,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/logo/logo_arvore_tech.png" type="image/x-icon">
     <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/media.css">
     <style>
-        section{
-            height: 97vh;
+        body{
+            position: relative;
+            background-image: linear-gradient(to bottom, rgb(83, 219, 60), lightblue);
+
+            padding: 10px;
+            
+        }
+        /*
+        nav{
+            background-color: white;
+            border: 1px solid black;
+            border-top: none;
+            width: 100%;
+            
+            position: fixed;
+            bottom: 0;
+            
+        }
+        nav ul{
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: center;
+
+            padding: 10px;
+
+            height: 40px;
+            
+        }
+        nav ul li{
+            display: inline-block;
+            font-size: 25px;
+        }
+            */
+
+
+        main{
+            padding: 30px 30px 30px 60px !important;
+        }
+        section#apresentacao{
+            height: 400px;
+            align-items: center;
+        }
+
+        section#apresentacao, main{
+            max-width: 800px;
+
+
+            margin: auto;
             display: flex;
             flex-flow: column nowrap;
             justify-content: center;
-            align-items: center;
+
+
 
             border: 1px solid black;
             margin-bottom: 5px;
-            padding: 5px;
+            padding: 15px;
+
+
 
             text-align: justify;
 
-            background-image: linear-gradient(to bottom, rgb(83, 219, 60), lightblue);
+            background-image: linear-gradient(to bottom, rgb(83, 219, 60), );
+        }
+
+        section.roteiro{
+            padding-bottom: 20px;
+
+            border: 2px solid #9a7a59;
+
+            margin-bottom: 10px;
+            padding: 20px;
+        }
+        section.roteiro h2{
+            color: rgb(103, 57, 57);
+
+            text-align: center;
+
+            padding: 7px;
+        }
+        section.roteiro #tom-terroso, #tom-azul, #tom-verde{
+            margin-bottom: 10px;
+            padding: 20px;
+        }
+        section.roteiro #tom-terroso{
+            border: 2px solid #9a7a59;
+        }
+        section.roteiro #tom-azul{
+            border: 2px solid #005F6B;
+        }
+        section.roteiro #tom-verde{
+            border: 2px solid #556B2F;
         }
     </style>
     <title>Technologia | Recicla Facil</title>
 </head>
 <body>
+    <!--<nav>
+        <ul>
+            <li>&#x267B;</li>
+            <li>&#x1F4CA;
+            </li>
+            <li>&#x1F5D1;</li>
+            <li>&#x1F3A5;</li>
+            <li>&#x1F6E0;</li>
+            <li>&#x1F5FA;</li>
+            <li>&#x1F9EE;</li>
+            <li>&#x2705;</li>
+        </ul>
+    </nav>-->
+
     <section id="apresentacao">
         <p>ReciclaFácil: Aprenda a Reciclar e Reutilizar de Forma Sustentável! &#x1F331; 	&#x267b;</p>
         <p>
@@ -34,49 +128,82 @@
             <img style="width: 100%;" src="imagens/logo/logo_arvore_tech.png" alt="">
         </div>
     </section>
-
-
-
-
-    <main>
-        <section>
-            <p>Explicar a importancia da reciclagem e reutilização</p>
-            <h2>Beneficios da reciclagem</h2>
+       <main> 
+        <section class="roteiro" style="border: none;">
+            <h2>Cores a serem utilizadas</h2>
+            <div id="tom-terroso">
+                <h3>Tons Terrosos</h3>
+                <ul>
+                    <li><strong>Bege:</strong> #E6D5B8</li>
+                    <li><strong>Marrom Claro:</strong> #4A484</li>
+                    <li><strong>Caramelo:</strong> #D2A679</li>
+                </ul>
+            </div>
+            
+            <div id="tom-azul">
+                <h3>Azul e Ciano</h3>
+                <ul>
+                    <li><strong>Azul suave:</strong> #6CA6CD</li>
+                    <li><strong>Azul petróleo:</strong> #005F6B</li>
+                    <li><strong>Ciano claro:</strong> #A7E8F2</li>
+                </ul>
+            </div>
+            
+            <div id="tom-verde">
+                <h3>Tons de Verde</h3>
+                <ul>
+                    <li><strong>Verde oliva:</strong> #808000</li>
+                    <li><strong>Verde musgo:</strong> #556B2F</li>
+                    <li><strong>Verde menta:</strong> #98FB98</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="roteiro">
+            <h2>Importância da reciclagem e reutilização reforçando os seus benefícios </h2>
             <ul>
                 <li>Redução da poluição</li>
                 <li>Economia de recursos naturais</li>
-                <li>Diminuuição do consumo de energia</li>
+                <li>Diminuição do consumo de energia</li>
                 <li>Geração de renda e empregos</li>
-                <li>Conscientzação e educação ambiental</li>
+                <li>Conscientização e educação ambiental</li>
             </ul>
-            <h2>Adicionar infografico interativo onde mostra a vida util de uma garrafa que nao vai ser reciclada e uma que vai </h2>
-        </section>
-
-        <section>
-            <h2>Guia pratico sobre separação correta do lixo reciclavel</h2>
-            <p>Posso incluir videos e trabalhos feitos pela nossa equipe ou de outras equipes</p>
-        </section>
-
-        <section>
-            <p>Tutoriais e dicas para transformar materiais reciclaveis em objetos uteis</p>
-            <ul>
-                <li>Podemos incluir uma imagem que mostra a transformação e um video da equipe fazendo esse tutorial</li>
-            </ul>
-        </section>
-
-        <section>
-            <p>Mapa de pontos de coleta</p>
         </section>
         
-        <section>
-            <p>Sistema de calculadora de impacto, onde o usuario insere quantos materiais reciclou e ve o impacto  ambiental positivo </p>
-            <p>Apresentar as fontes, como: <a href="https://www.wwf.org.br/?14001/#:~:text=A%20reciclagem%20do%20pl%C3%A1stico%20economiza,de%201%20tonelada%20de%20petr%C3%B3leo.">WWF</a></p>
+        <section class="roteiro">
+            <h2>Infográfico interativo</h2>
+            <p>Mostrar a vida útil de uma garrafa que não será reciclada e uma que será reciclada.</p>
+            
+            <h2>Guia prático sobre separação correta do lixo reciclável</h2>
+            
+            <h3>Conteúdo adicional</h3>
+            <ul>
+                <li>Vídeos e trabalhos feitos pela nossa equipe ou de outras equipes</li>
+                <li>Tutoriais e dicas para transformar materiais recicláveis em objetos úteis</li>
+                <li>Imagem mostrando a transformação e um vídeo da equipe fazendo o tutorial</li>
+            </ul>
         </section>
-
-        <section>
-            <p>Mostrar ações diarias e o quanto ela impacta no dia a dia</p>
+        
+        <section class="roteiro">
+            <h2>Mapa de pontos de coleta</h2>
         </section>
-    </main>
+        
+        <section class="roteiro">
+            <h2>Calculadora de impacto ambiental</h2>
+            <p>Usuário insere quantos materiais reciclou e vê o impacto ambiental positivo.</p>
+        </section>
+        
+        <section class="roteiro">
+            <h2>Fontes</h2>
+            <p>Exemplo de fonte confiável: <a href="https://www.wwf.org.br/?14001/#:~:text=A%20reciclagem%20do%20pl%C3%A1stico%20economiza,de%201%20tonelada%20de%20petr%C3%B3leo.">WWF</a></p>
+        </section>
+        
+        <section class="roteiro">
+            <h2>Ações diárias e seu impacto</h2>
+            <p>Mostrar como pequenas ações impactam no dia a dia.</p>
+        </section>
+        
+       </main>
 
 
 
