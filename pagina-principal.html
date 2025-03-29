@@ -43,7 +43,6 @@
         }
         main section{
             margin: auto;
-            width: 100vh;
         }
         main section#um{
             background-color: transparent;
@@ -52,9 +51,14 @@
             flex-flow: row nowrap;
             justify-content: space-around;
             align-items: center;
+
+            padding: 40px 30px;
         }
         main section#um h1{
             max-width: 500px;
+
+            font-size: 35px;
+            font-weight: bold;
         }
         main section#um p{
             max-width: 600px;
@@ -70,23 +74,34 @@
         }
         main section#dois{
             background-color: #404952;
+
+            padding: 20px 30px;
         }
         main section#dois h1{
             text-align: center;
+
+            padding: 10px 0 20px 0;
+
+            font-size: 25px;
+            font-weight: bold;
         }
-        main section#dois h1{
+        main section#dois > p{
             text-align: center;
         }
         main section#dois div.imagens {
-            border: 2px solid;
 
-            background-color: #363f48;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+
         }
         main section#dois div.imagens div.local-onde-vai-as-imagens {
             width: 250px;
             border: 2px solid;
 
             padding: 20px;
+            margin-right: 10px;
         }
 
         main section#dois div.img-pequena{
@@ -97,6 +112,24 @@
         }
         main section#tres{
             background-color: #4a5567;
+
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+
+            padding: 20px;
+        }
+        main section#tres h1{
+            text-align: center;
+
+            padding: 10px 0 20px 0;
+
+            font-size: 25px;
+            font-weight: bold;
+        }
+        main section#tres p{
+            
         }
     </style>
 </head>
@@ -138,13 +171,27 @@
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
+
+                <div class="local-onde-vai-as-imagens">
+                    <div class="img-pequena">
+                        <img src="imagens/logo/logo_principal.png" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <div class="local-onde-vai-as-imagens">
+                    <div class="img-pequena">
+                        <img src="imagens/logo/logo_principal.png" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
             </div>
         </section>
-        <!--
+
         <section id="tres">
             <h1>Mapa de pontos de coleta</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!3m2!1spt-BR!2sbr!4v1743208910123!5m2!1spt-BR!2sbr!6m8!1m7!1sAE3G5vGVisY1ZfGOnHywVg!2m2!1d-1.447320878718485!2d-48.4659998768781!3f329.06645007462515!4f-12.533325375949659!5f0.7820865974627469" width="600" height="450" style="border:1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
-        -->
     </main>
 </body>
 </html>
