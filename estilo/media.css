@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media (max-width: 680px){
+@media (max-width: 800px){
     header{
         display: flex;
         justify-content: space-between;
@@ -18,5 +18,9 @@
     }
     header nav ul li{
         display: none;
+    }
+    main section#dois div.imagens {
+        justify-content: start;
+
     }
 }
