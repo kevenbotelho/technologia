@@ -5,19 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/logo/favicon_io/android-chrome-192x192.png" type="image/x-icon">
     <link rel="stylesheet" href="estilo/estilo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+    <link rel="stylesheet" href="estilo/media.css">
     <title>Technologia | ReciclaFácil</title>
 
     <style>
         body{
             background-color: #363f48;
             color: white;
+            position: relative;
         }
 
         header{
+            background-color: #363f48;
+
+            border-bottom: 1px solid;
             display: flex;
             flex-flow: row nowrap;
             justify-content: space-evenly;
             align-items: center;
+
+            position: sticky;
+            
+            top: 0;
         }
         header div#logo{
             max-width: 60px;
@@ -29,15 +39,23 @@
             
         }
         header nav ul{
-
+            display: flex;
+            flex-flow: row nowrap;
         }
         header nav ul li{
             display: inline;
+            white-space: nowrap;
+
+            overflow: auto;
             
             padding-right: 5px;
         }
-
-
+        header nav div#menu-celular{
+            display: none;
+        }
+        header nav div#menu-celular span{
+            font-size: 30px;
+        }
         main{
 
         }
@@ -64,7 +82,6 @@
             max-width: 600px;
         }
         main section#um div#lado-direito{
-            
         }
         main section#um div.img{
             max-width: 170px;
@@ -89,16 +106,20 @@
             text-align: center;
         }
         main section#dois div.imagens {
-
             display: flex;
-            flex-flow: row wrap;
-            justify-content: center;
+            flex-flow: row nowrap;
             align-items: center;
+
+            white-space: nowrap;
+            overflow: auto;
 
         }
         main section#dois div.imagens div.local-onde-vai-as-imagens {
             width: 250px;
+            flex-shrink: 0;
             border: 2px solid;
+            white-space: normal;
+            overflow-x: hidden;
 
             padding: 20px;
             margin-right: 10px;
@@ -128,6 +149,9 @@
             font-size: 25px;
             font-weight: bold;
         }
+        section iframe{
+            width: 80%;
+        }
         main section#tres p{
             
         }
@@ -146,6 +170,9 @@
                 <li>navegação</li>
                 <li>navegação</li>
             </ul>
+            <div id="menu-celular">
+                <span class="material-symbols-outlined">menu</span>
+            </div>
         </nav>
     </header>
 
@@ -193,5 +220,8 @@
             <iframe src="https://www.google.com/maps/embed?pb=!3m2!1spt-BR!2sbr!4v1743208910123!5m2!1spt-BR!2sbr!6m8!1m7!1sAE3G5vGVisY1ZfGOnHywVg!2m2!1d-1.447320878718485!2d-48.4659998768781!3f329.06645007462515!4f-12.533325375949659!5f0.7820865974627469" width="600" height="450" style="border:1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
+    <footer>
+        Feito por Keven
+    </footer>
 </body>
 </html>

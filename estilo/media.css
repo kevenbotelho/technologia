@@ -1,10 +1,22 @@
-/*
-@media (min-width: 748px){
-    body{
+@charset "UTF-8";
+@media (max-width: 680px){
+    header{
         display: flex;
-        flex-flow: row nowrap;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        
+
+        padding:  0 20px;
+    }
+    header div#logo{
+        max-width: 60px !important;
+    }
+    header div#logo img{
+        width: 100%;
+    }
+    header nav div#menu-celular{
+        display: block;
+    }
+    header nav ul li{
+        display: none;
     }
 }
