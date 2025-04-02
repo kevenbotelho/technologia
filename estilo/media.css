@@ -19,6 +19,16 @@
     header nav ul li{
         display: none;
     }
+    main section#um{
+        background-color: transparent;
+    
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        align-items: center;
+    
+        padding: 40px 30px;
+    }
     main section#dois div.imagens {
         padding-top: 10px;
         justify-content: start;
