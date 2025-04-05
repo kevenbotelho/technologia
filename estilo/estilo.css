@@ -61,6 +61,7 @@ main{
 }
 main section{
     margin: auto;
+    border: 1px solid;
 }
 main section#um{
     background-color: transparent;
@@ -70,7 +71,7 @@ main section#um{
     justify-content: space-around;
     align-items: center;
 
-    padding: 40px 30px;
+    padding: 40px 0;
 }
 main section#um h1{
     max-width: 500px;
@@ -94,7 +95,7 @@ main section#dois{
 
     padding: 20px 30px;
 }
-main section#dois h1{
+main section#dois h2{
     text-align: center;
 
     padding: 10px 0 20px 0;
@@ -110,19 +111,23 @@ main section#dois div.imagens {
     flex-flow: row nowrap;
     align-items: center;
     justify-content: center;
+    
 
     white-space: nowrap;
     overflow: auto;
 
 }
 main section#dois div.imagens div.local-onde-vai-as-imagens {
+    background-color: #535a64;
+    border-radius: 10px;
+
     width: 250px;
     flex-shrink: 0;
-    border: 2px solid;
     white-space: normal;
     overflow-x: hidden;
 
     padding: 20px;
+    margin-right: 10px;
 }
 
 main section#dois div.img-pequena{
@@ -131,17 +136,43 @@ main section#dois div.img-pequena{
 main section#dois div.img-pequena img{
     width: 100%;
 }
+
+
+
+
+
+
+
+
 main section#tres{
-    background-color: #4a5567;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 40px 0;
+}
+main section#tres div#imagemtres{
+    max-width: 200px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+main section#tres div#imagemtres img{
+    width: 100%;
+}
+main section#tres div#lado-direito-2{
+    background-color: #525863;
+    max-width: 700px;
+    padding: 20px;
 
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    align-items: center;
-
-    padding: 20px;
+    align-items: start;
 }
-main section#tres h1{
+main section#tres div#lado-direito-2 h2{
     text-align: center;
 
     padding: 10px 0 20px 0;
@@ -149,9 +180,70 @@ main section#tres h1{
     font-size: 25px;
     font-weight: bold;
 }
-section iframe{
-    width: 80%;
+main section#tres div#lado-direito-2 p{
+    text-align: justify;
+
+    padding-bottom: 20px;
 }
-main section#tres p{
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main section#quatro{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+
+    /*apagar dps*/
+    padding: 20px 0;
+    margin: 10px 0;
+}
+main section#quatro h2{
+    text-align: center;
+    font-weight: normal;
+    font-size: 30px;
+}
+main section#quatro p{
+    text-align: center;
+}
+
+
+
+main section#cinco{
+    display: flex;
+    flex-flow: row;
+    /*apagar dps*/
+    padding: 20px 0;
+    margin: 10px 0;
+}
+
+main section#seis{
+    display: flex;
+    flex-flow: row;
+    /*apagar dps*/
+    padding: 20px 0;
+    margin: 10px 0;
+}
+
+main section#sete{
+    /*apagar dps*/
+    padding: 20px 0;
+    margin: 10px 0;
+}
+
+main section#oito{
+    /*apagar dps*/
+    padding: 20px 0;
+    margin: 10px 0;
 }
