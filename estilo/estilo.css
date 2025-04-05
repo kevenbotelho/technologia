@@ -150,10 +150,12 @@ main section#tres{
     justify-content: space-evenly;
     align-items: center;
 
+    max-width: 1500px;
+
     padding: 40px 0;
 }
 main section#tres div#imagemtres{
-    max-width: 200px;
+    width: 20dvw;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -164,7 +166,7 @@ main section#tres div#imagemtres img{
 }
 main section#tres div#lado-direito-2{
     background-color: #525863;
-    max-width: 700px;
+    width: 60vw;
     padding: 20px;
 
     display: flex;
@@ -197,53 +199,132 @@ main section#tres div#lado-direito-2 p{
 
 
 
-
-
-
 main section#quatro{
+    background-color: #404952;
+
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
+    align-items: center;
 
-    /*apagar dps*/
     padding: 20px 0;
-    margin: 10px 0;
 }
 main section#quatro h2{
     text-align: center;
     font-weight: normal;
     font-size: 30px;
+    padding: 10px 0;
+}
+main section#quatro div#imgquatro{
+    max-width: 300px;
+}
+main section#quatro div#imgquatro img{
+    width: 100%;
 }
 main section#quatro p{
     text-align: center;
+
+    max-width: 500px;
 }
+
+
 
 
 
 main section#cinco{
-    display: flex;
-    flex-flow: row;
-    /*apagar dps*/
     padding: 20px 0;
-    margin: 10px 0;
+    max-width: 1500px;
 }
+main section#cinco h2{
+    text-align: center;
+    padding: 10px;
+}
+main section#cinco div#abrangente{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+main section#cinco div#secum, div#secdois, div#sectres{
+    max-width: 280px;
+    
+}
+main section#cinco div#secum h3, div#secdois h3, div#sectres h3{
+    font-weight: bold;
+}
+
+
+
 
 main section#seis{
-    display: flex;
-    flex-flow: row;
-    /*apagar dps*/
+    background-color: #404952;
     padding: 20px 0;
-    margin: 10px 0;
+}
+main section#seis h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+main section#seis div#abrangente-dois{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+main section#seis div#abrangente-dois div.foto-texto{
+    max-width: 200px;
+}
+main section#seis div#abrangente-dois div.foto{
+    background-color: red;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+main section#seis div#abrangente-dois div.foto-texto p{
+    text-align: justify;
 }
 
+
+
+
+
 main section#sete{
-    /*apagar dps*/
+    background-color: #4a5567;
     padding: 20px 0;
-    margin: 10px 0;
+
+}
+main section#sete h2{
+    text-align: center;
+}
+main section#sete ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px 0 0 0;
+}
+main section#sete ul li{
+    display: inline;
+    text-align: center;
+}
+main section#sete ul li a{
+    text-decoration: underline;
+    color: lightblue;
+
+    font-weight: bold;
+
+    padding: 0 20px 0 0;
+
+}
+main section#sete iframe{
+    display: block;
+    margin: auto;
+
+    width: 600px;
+    height: 500px;
 }
 
 main section#oito{
-    /*apagar dps*/
     padding: 20px 0;
-    margin: 10px 0;
 }
