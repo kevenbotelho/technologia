@@ -13,11 +13,13 @@ body{
 
 header{
     background-color: #363f48;
+    max-width: 3000px;
+    margin: auto;
 
     border-bottom: 1px solid;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 
     position: sticky;
@@ -61,7 +63,6 @@ main{
 }
 main section{
     margin: auto;
-    border: 1px solid;
 }
 main section#um{
     background-color: transparent;
@@ -81,15 +82,26 @@ main section#um h1{
 }
 main section#um p{
     max-width: 600px;
+
+    letter-spacing: 1px;
+    font-size: 18px;
 }
 main section#um div#lado-direito{
 }
 main section#um div.img{
     max-width: 170px;
+    order: -1;
 }
 main section#um img{
     width: 100%;
+    border-radius: 20px;
 }
+
+
+
+
+
+/*Importância dos materiais recicláveis*/
 main section#dois{
     background-color: #404952;
 
@@ -105,6 +117,8 @@ main section#dois h2{
 }
 main section#dois > p{
     text-align: center;
+
+    padding-bottom: 5px;
 }
 main section#dois div.imagens {
     display: flex;
@@ -135,6 +149,7 @@ main section#dois div.img-pequena{
 }
 main section#dois div.img-pequena img{
     width: 100%;
+    
 }
 
 
@@ -143,7 +158,7 @@ main section#dois div.img-pequena img{
 
 
 
-
+/*Energia Renovável*/
 main section#tres{
     display: flex;
     flex-flow: row nowrap;
@@ -163,6 +178,7 @@ main section#tres div#imagemtres{
 }
 main section#tres div#imagemtres img{
     width: 100%;
+    border-radius: 20px;
 }
 main section#tres div#lado-direito-2{
     background-color: #525863;
@@ -198,7 +214,7 @@ main section#tres div#lado-direito-2 p{
 
 
 
-
+/*Infografico Interativo*/
 main section#quatro{
     background-color: #404952;
 
@@ -220,6 +236,7 @@ main section#quatro div#imgquatro{
 }
 main section#quatro div#imgquatro img{
     width: 100%;
+    border-radius: 20px;
 }
 main section#quatro p{
     text-align: center;
@@ -230,23 +247,24 @@ main section#quatro p{
 
 
 
-
+/*Guia Pratico*/
 main section#cinco{
     padding: 20px 0;
     max-width: 1500px;
 }
 main section#cinco h2{
     text-align: center;
-    padding: 10px;
+    padding: 5px 0 20px 0;
 }
 main section#cinco div#abrangente{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
 }
 main section#cinco div#secum, div#secdois, div#sectres{
     max-width: 280px;
+    padding-bottom: 20px;
     
 }
 main section#cinco div#secum h3, div#secdois h3, div#sectres h3{
@@ -255,7 +273,7 @@ main section#cinco div#secum h3, div#secdois h3, div#sectres h3{
 
 
 
-
+/*Series de videos*/
 main section#seis{
     background-color: #404952;
     padding: 20px 0;
@@ -287,7 +305,7 @@ main section#seis div#abrangente-dois div.foto-texto p{
 
 
 
-
+/*Mapas*/
 main section#sete{
     background-color: #4a5567;
     padding: 20px 0;
@@ -317,12 +335,15 @@ main section#sete ul li a{
     padding: 0 20px 0 0;
 
 }
-main section#sete iframe{
+main section#sete div#iframe{
+    max-width: 600px;
+    margin: auto;
+}
+main section#sete div#iframe iframe{
     display: block;
     margin: auto;
 
-    width: 600px;
-    height: 500px;
+    width: 100%;
 }
 
 main section#oito{
