@@ -67,7 +67,6 @@ main{
 main section{
     margin: auto;
 
-    border: 1px solid;
 }
 main section#um{
     background-color: transparent;
@@ -82,8 +81,10 @@ main section#um{
 main section#um h1{
     max-width: 500px;
 
-    font-size: 35px;
+    font-size: 35px !important;
     font-weight: bold;
+
+    padding-bottom: 10px;
 }
 main section#um p{
     max-width: 600px;
@@ -302,11 +303,21 @@ main section#seis div#abrangente-dois div.foto-texto{
 main section#seis div#abrangente-dois div.foto{
     max-width: 300px;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 main section#seis div#abrangente-dois div.foto-texto div.foto img{
     width: 100%;
     border-radius: 20px;
 }
+main section#seis div#abrangente-dois div.foto-texto div.foto img {
+    transition: all 0.4s ease;
+  }
+  
+  main section#seis div#abrangente-dois div.foto-texto div.foto img:hover {
+    border: 10px solid black;
+    box-shadow: 5px 5px 20px black;
+  }
+  
 main section#seis div#abrangente-dois div.foto-texto p{
     text-align: justify;
     padding-bottom: 20px;
@@ -404,4 +415,5 @@ main section#oito{
     color: rgb(83, 223, 83);
     cursor: pointer;
   }
-  
+    
+
