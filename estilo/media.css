@@ -1,10 +1,98 @@
 @charset "UTF-8";
+
+/*Celular de até 400px*/
+@media screen and (max-width: 400px){
+    hr{
+        display: block;
+        margin-bottom: 20px;
+    }
+    /*Section tres - Energia renovavel */
+    main section#tres{
+    }
+    main section#tres div#imagemtres{
+        width: 200px ;
+        display: unset;
+        flex-flow: unset;
+        justify-content: unset;
+        align-items: unset;
+
+        padding-bottom: 10px;
+
+    }
+    main section#tres div#imagemtres img{
+        width: 100% ;
+        border-radius: 20px;
+
+    }
+    main section#tres div#lado-direito-2{
+        background-color: #525863;
+        width: 300px;
+        padding: 20px;
+    
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: start;
+    }
+
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*Infografico Interativo*/
+    main section#quatro{
+        padding: 10px 20px;
+    }
+    main section#quatro h2{
+    }
+    main section#quatro div#imgquatro{
+    }
+    main section#quatro div#imgquatro img{
+    }
+    main section#quatro p{
+        text-align: justify;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 1202px){
     header{
         display: flex;
         justify-content: space-between;
         align-items: center;
-
     }
     header div#logo{
         max-width: 60px;
@@ -65,7 +153,7 @@
         align-items: center;
     }
     main section#tres div#imagemtres{
-        max-width: 800px !important;
+        max-width: 800px ;
         display: flex;
         flex-flow: row nowrap;
         justify-content: center;
