@@ -118,7 +118,7 @@
         </section>
 
         <section id="tres">
-            <div id="imagemtres"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe-Cl6iCHs9_fMqbQNo3L24Wk725_54AU1clxD20GgmWUEuTAnY3WEq9H3gaRsfUQt2QE&usqp=CAU" alt=""></div>
+            <div id="imagemtres"><img src="imagens/imagens/energia-renovavel.png" alt=""></div>
             <div id="lado-direito-2">
                 <h2>Energia Renovável</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur minima, earum blanditiis iusto ex quos. Libero, quaerat corporis assumenda modi obcaecati illo reprehenderit, nulla similique soluta beatae itaque pariatur dolores.</p>
@@ -160,24 +160,28 @@
             <div id="abrangente-dois">
                 <div class="foto-texto">
                     <div class="foto">
-                        <img src="imagens/logo/logo_principal.png" alt="">
+                        <img src="imagens/imagens/transformar1.png" alt="" onclick="abrirModal('videos/laranja.mp4')">
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores a ex?</p>
                 </div>
                 <div class="foto-texto">
                     <div class="foto">
-                        <img src="imagens/logo/logo_principal.png" alt="">
+                        <img src="imagens/imagens/transformar2.png" alt=""  onclick="abrirModal('videos/maca.mp4')">
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores a ex?</p>
                 </div>
                 <div class="foto-texto">
                     <div class="foto">
-                        <img src="imagens/logo/logo_principal.png" alt="">
+                        <img src="imagens/imagens/transformar3.png" alt="" onclick="abrirModal('videos/pera.mp4')">
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores a ex?</p>
                 </div>
             </div>
         </section>
+
+
+
+
         <section id="sete">
             <h2>Mapa de pontos de coleta</h2>
             <ul>
@@ -198,5 +202,44 @@
     <footer>
         Feito por Keven
     </footer>
+
+
+    <!-- Modal para o vídeo -->
+    <div class="modal" id="modal" onclick="fecharModalFora(event)">
+        <div class="conteudo-modal">
+        <span class="fechar" onclick="fecharModal()">&times;</span>
+        <video id="videoPlayer" controls>
+            <source src="" type="video/mp4">
+            Seu navegador não suporta vídeo.
+        </video>
+        </div>
+    </div>
+  
+    <script>
+        function abrirModal(videoSrc) {
+          const modal = document.getElementById("modal");
+          const video = document.getElementById("videoPlayer");
+      
+          video.querySelector("source").src = videoSrc;
+          video.load(); // recarrega o vídeo
+          modal.style.display = "flex";
+        }
+      
+        function fecharModal() {
+          const modal = document.getElementById("modal");
+          const video = document.getElementById("videoPlayer");
+      
+          modal.style.display = "none";
+          video.pause(); // pausa o vídeo quando fechar
+        }
+        function fecharModalFora(event) {
+        const conteudo = document.querySelector(".conteudo-modal");
+        if (!conteudo.contains(event.target)) {
+        fecharModal();
+        }
+        }
+
+      </script>
+      
 </body>
 </html>
