@@ -11,35 +11,6 @@
         max-width: 270px;
     }
     /*Section tres - Energia renovavel */
-    main section#tres{
-    }
-    main section#tres div#imagemtres{
-        width: 200px ;
-        display: unset;
-        flex-flow: unset;
-        justify-content: unset;
-        align-items: unset;
-
-        padding-bottom: 10px;
-
-    }
-    main section#tres div#imagemtres img{
-        width: 100% ;
-        border-radius: 20px;
-
-    }
-    main section#tres div#lado-direito-2{
-        background-color: #525863;
-        width: 300px;
-        padding: 20px;
-    
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: center;
-        align-items: start;
-    }
-
-   
     
 
 

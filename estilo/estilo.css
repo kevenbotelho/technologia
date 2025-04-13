@@ -151,6 +151,7 @@ main section#dois div.imagens div.local-onde-vai-as-imagens {
     border-radius: 10px;
 
     width: 250px;
+    height: 250px;
     flex-shrink: 0;
     white-space: normal;
     overflow-x: hidden;
@@ -158,8 +159,12 @@ main section#dois div.imagens div.local-onde-vai-as-imagens {
     padding: 20px;
     margin-right: 10px;
 }
-
+main section#dois div.imagens div.local-onde-vai-as-imagens h3{
+    color: rgb(255, 165, 165);
+    padding-bottom: 3px;
+}
 main section#dois div.img-pequena{
+    margin: auto;
     max-width: 50px;
 }
 main section#dois div.img-pequena img{
@@ -173,110 +178,89 @@ main section#dois div.img-pequena img{
 
 
 
-/*Energia Renovável*/
+Energia Renovável
+
 main section#tres{
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-
-    max-width: 1500px;
-
-    padding: 40px 20px;
-}
-main section#tres div#imagemtres{
-    width: 20dvw;
-    display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+
+    padding: 20px 0;
+}
+main section#tres h2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 28px;
+    padding: 10px 0 30px 10px;
+}
+main section#tres div#imagemtres{
+    max-width: 300px;
 }
 main section#tres div#imagemtres img{
     width: 100%;
-    border-radius: 20px;
-    margin-right: 20px;
 }
-main section#tres div#lado-direito-2{
-    background-color: #525863;
-    width: 60vw;
-    padding: 20px;
-
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: start;
-
-    border-radius: 20px;
+main section#tres p{
+    max-width: 500px;
 }
-main section#tres div#lado-direito-2 h2{
-    text-align: center;
-
-    padding: 10px 0 20px 0;
-
-    font-size: 28px;
-    font-weight: bold;
-}
-main section#tres div#lado-direito-2 p{
-    text-align: justify;
-
-    padding-bottom: 20px;
-}
-main section#tres div#lado-direito-2 div#beneficios-desafios{
-    border: 1px solid;
-    border-radius: 20px 20px 0 0;
-    padding: 10px;
-
+main section#tres div#beneficios-desafios{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-
-    margin: auto;
 }
-main section#tres div#lado-direito-2 div#beneficios{
-    max-width: 608px;
-    background-color: green;
+main section#tres div#beneficios-desafios div#beneficios{
+    background-color: #008000;
 
-    padding: 20px;
-    margin: 10px;
-    border-radius: 20px;
-}
-main section#tres div#lado-direito-2 div#desafios{
-    max-width: 608px;
-    background-color: rgb(204, 63, 63);
+    max-width: 500px;
 
     padding: 20px;
-    margin: 10px;
-    border-radius: 20px;
+    margin: -10px 20px 20px 20px;
 
-}
-main section#tres div#lado-direito-2 div#beneficios h3 , main section#tres div#lado-direito-2 div#desafios h3{
-    font-size: 23px;
-    text-align: center;
-    padding: 10px 0;
-}
-main section#tres div#lado-direito-2 div#beneficios p , main section#tres div#lado-direito-2 div#desafios p {
-    text-align: justify;
-}
-main section#tres div#lado-direito-2 div#exemplo{
-    width: 100%;
-    background-color: rgb(46, 61, 66);
-    padding: 10px;
     border: 1px solid;
-    border-radius: 0 0 20px 20px;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
+    border-radius: 20px;
 }
-main section#tres div#lado-direito-2 div#exemplo h3{
+main section#tres div#beneficios-desafios div#beneficios h3{
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+main section#tres div#beneficios-desafios div#beneficios p{
     padding: 10px 0;
 }
-main section#tres div#lado-direito-2 div#exemplo p{
+main section#tres div#beneficios-desafios div#desafios{
+    background-color: #cc3f3f;
     
+    max-width: 500px;
+
+    padding: 20px;
+    margin: -10px 20px 20px 20px;
+
+    border: 1px solid;
+    border-radius: 20px;
 }
+main section#tres div#beneficios-desafios div#desafios h3{
+    padding-bottom: 10px;
+    font-size: 22px;
+}
+main section#tres div#beneficios-desafios div#desafios p{
+    padding: 10px 0;
+}
+main section#tres div#exemplo{
+    max-width: 320px ;
 
+    padding: 20px;
+    margin: auto;
 
-
+    border: 1px solid;
+    border-radius: 20px;
+}
+main section#tres div#exemplo h3{
+    text-align: center;
+}
+main section#tres div#exemplo p{
+    text-align: justify;
+    line-height: 23px;
+    padding: 10px 0;
+}
 
 
 
@@ -404,7 +388,6 @@ main section#seis div#abrangente-dois div.foto-texto p{
 
 /*Mapas*/
 main section#sete{
-    background-color: #4a5567;
     padding: 20px;
 
 }
