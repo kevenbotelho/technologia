@@ -6,6 +6,10 @@
         display: block;
         margin-bottom: 20px;
     }
+    /*Section Um*/
+    main section#um div.img{
+        max-width: 270px;
+    }
     /*Section tres - Energia renovavel */
     main section#tres{
     }

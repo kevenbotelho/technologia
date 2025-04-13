@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/logo/favicon_io/android-chrome-192x192.png" type="image/x-icon">
     <link rel="stylesheet" href="estilo/estilo.css">
+    <link rel="stylesheet" href="estilo/reset.css">
     <link rel="stylesheet" href="estilo/media.css" media="screen and (max-width: 992px)">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
     <title>Technologia | ReciclaFácil</title>
@@ -16,19 +17,19 @@
         </div>
         <h1>ReciclaFácil</h1>
         <nav>
-            <ul>
-                <li><a href="">materiais recicláveis |</a></li>
-                <li><a href="">energia renovável |</a></li>
-                <li><a href="">infográfico interativo |</a></li>
-                <li><a href="">guia prático |</a></li>
-                <li><a href="">videos tutoriais |</a></li>
-                <li><a href=""></a></li>
-            </ul>
             <div id="menu-celular">
                 <span class="material-symbols-outlined">menu</span>
             </div>
+            <ul id="menu-links">
+                <li><a href="">materiais recicláveis</a></li>
+                <li><a href="">energia renovável</a></li>
+                <li><a href="">infográfico interativo</a></li>
+                <li><a href="">guia prático</a></li>
+                <li><a href="">vídeos tutoriais</a></li>
+            </ul>
         </nav>
     </header>
+    
 
     <main>
         <section id="um">
@@ -121,8 +122,33 @@
             <div id="imagemtres"><img src="imagens/imagens/energia-renovavel.png" alt=""></div>
             <div id="lado-direito-2">
                 <h2>Energia Renovável</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur minima, earum blanditiis iusto ex quos. Libero, quaerat corporis assumenda modi obcaecati illo reprehenderit, nulla similique soluta beatae itaque pariatur dolores.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur minima, earum blanditiis iusto ex quos. Libero, quaerat corporis assumenda modi obcaecati illo reprehenderit, nulla similique soluta beatae itaque pariatur dolores.</p>
+                <p>A energia renovável é uma fonte de energia que se regenera naturalmente e não se esgota. Ela é uma alternativa sustentável aos combustíveis fósseis, que poluem o ar e contribuem para o aquecimento global.</p>
+
+                <div id="beneficios-desafios">
+                    <div id="beneficios">
+                        <h3>Benefícios</h3>
+                        <p>
+                            Contribui para a redução das emissões de gases de efeito estufa
+                            Promove a transição para um futuro mais sustentável
+                            Contribui para a estabilidade dos preços da energia
+                            Incentiva a inovação e a criação de novas tecnologias
+                        </p>
+                    </div>
+                    <div id="desafios">
+                        <h3>Desafios e impactos ambientais</h3>
+                        <p>
+                            A produção de energia solar depende da disponibilidade de luz solar
+                            A geração de energia eólica depende da velocidade e consistência do vento
+                            A produção de biomassa para fins energéticos pode competir com a produção de alimentos
+                            A construção de barragens para a geração de energia maremotriz pode modificar a fauna e a flora local
+                            A construção de grandes usinas geradoras de energia solar pode demandar a remoção de vegetação e o consumo de minerais.
+                        </p>
+                    </div>
+                </div>
+                <div id="exemplo">
+                    <h3>Exemplos de energias renováveis</h3>
+                    <p>Energia solar, Energia eólica, Biomassa, Energia hídrica, Energia geotérmica, Hidrogênio.</p>
+                </div>
             </div>
         </section>
         
@@ -198,6 +224,38 @@
         </section>
         <section id="nove">
             <h2>Ações diárias e seu impacto</h2>
+                <div class="imagem"><img src="imagens/imagens/ciclodevida.png" alt=""></div>
+            </div>
+
+<p>
+    1. Introdução
+    Pequenas ações cotidianas têm grande influência na saúde, produtividade, relacionamentos e meio ambiente. O objetivo desta pesquisa é mostrar como hábitos simples podem transformar a vida a longo prazo.
+</p>
+
+<p>
+    2. Saúde
+    Adotar uma alimentação equilibrada e praticar atividades físicas previne doenças como diabetes e hipertensão. Esses hábitos aumentam a qualidade de vida e a longevidade (RSD Journal).
+</p>
+
+<p>
+    3. Produtividade
+    Cuidar da saúde mental com práticas como meditação, organização e pausas regulares reduz o estresse e melhora a produtividade no trabalho (Telavita).
+</p>
+
+<p>
+    4. Meio Ambiente
+    Pequenas atitudes como reduzir o uso de plástico, economizar energia e usar transporte sustentável ajudam na preservação ambiental (ProCausa).
+</p>
+
+<p>
+    5. Relacionamentos
+    Ações simples como agradecer e ouvir com atenção fortalecem os laços interpessoais e promovem bem-estar coletivo (Einstein Vida Saudável).
+</p>
+
+<p>
+    6. Conclusão
+    Hábitos diários simples podem gerar grandes mudanças na vida pessoal, social e ambiental. A constância dessas atitudes é essencial para um cotidiano mais saudável e equilibrado.
+</p>
 
         </section>
 
@@ -241,7 +299,6 @@
         fecharModal();
         }
         }
-
       </script>
       
 </body>
