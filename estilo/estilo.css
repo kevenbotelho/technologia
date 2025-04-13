@@ -154,31 +154,33 @@ main section#dois div.imagens div.local-onde-vai-as-imagens {
     height: 250px;
     flex-shrink: 0;
     white-space: normal;
-    overflow-x: hidden;
+    overflow-x: scroll;
 
     padding: 20px;
     margin-right: 10px;
 }
-main section#dois div.imagens div.local-onde-vai-as-imagens h3{
-    color: rgb(255, 165, 165);
-    padding-bottom: 3px;
-}
+
+
+  
 main section#dois div.img-pequena{
-    margin: auto;
     max-width: 50px;
 }
 main section#dois div.img-pequena img{
     width: 100%;
     
 }
+main section#dois div.imagens div.local-onde-vai-as-imagens h3{
+    color: rgb(255, 165, 165);
+    padding-bottom: 3px;
+}
+main section#dois div.imagens div.local-onde-vai-as-imagens p{
+    
+}
 
 
 
 
-
-
-
-Energia Renovável
+/*Energia Renovável*/
 
 main section#tres{
     display: flex;
@@ -298,7 +300,7 @@ main section#quatro p{
 
 
 
-/*Guia Pratico*/
+/*Guia Pratico - Dicas Praticas*/
 main section#cinco{
     padding: 20px 0;
     max-width: 1500px;
@@ -316,13 +318,13 @@ main section#cinco div#abrangente{
 }
 main section#cinco div#secum, div#secdois, div#sectres{
     max-width: 280px;
+    height: 300px;
 
     margin-bottom: 10px;
     padding: 20px;
 
     border-radius: 20px;
     border: 1px solid;
-    
 }
 main section#cinco div#secum h3, div#secdois h3, div#sectres h3{
     font-weight: bold;
@@ -479,10 +481,10 @@ main section#nove div#paragrafos{
     justify-content: center;
 }
 main section#nove div#paragrafos p{
-    background-color: rgb(159, 248, 159);
-    color: black;
+    background-color: black;
+    color: white;
 
-    border: 1px solid;
+    border: 1px solid white;
     border-radius: 20px;
 
     margin: 20px ;
@@ -496,7 +498,10 @@ main section#nove div#paragrafos p{
 }
 
 
-
+footer{
+    background-color: black;
+    color: white;
+}
 
 
 /*CHAT*/
