@@ -12,6 +12,8 @@ body{
     background-color: #363f48;
     color: white;
     position: relative;
+
+    margin: auto;
 }
 
 header{
@@ -69,7 +71,6 @@ main{
 }
 main section{
     margin: auto;
-    border: 1px solid;
     max-width: 1800px !important;
 
 }
@@ -95,6 +96,9 @@ main section#um p{
     max-width: 600px;
 
     letter-spacing: 1px;
+    line-height: 25px;
+
+
     font-size: 18px;
 }
 main section#um div#lado-direito{
@@ -122,9 +126,9 @@ main section#dois{
 main section#dois h2{
     text-align: center;
 
-    padding: 10px 0 20px 0;
+    padding: 0px 0 20px 0;
 
-    font-size: 25px;
+    font-size: 28px;
     font-weight: bold;
 }
 main section#dois > p{
@@ -135,8 +139,7 @@ main section#dois > p{
 main section#dois div.imagens {
     display: flex;
     flex-flow: row nowrap;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
     
 
     white-space: nowrap;
@@ -179,7 +182,7 @@ main section#tres{
 
     max-width: 1500px;
 
-    padding: 40px 0;
+    padding: 40px 20px;
 }
 main section#tres div#imagemtres{
     width: 20dvw;
@@ -210,7 +213,7 @@ main section#tres div#lado-direito-2 h2{
 
     padding: 10px 0 20px 0;
 
-    font-size: 25px;
+    font-size: 28px;
     font-weight: bold;
 }
 main section#tres div#lado-direito-2 p{
@@ -219,23 +222,27 @@ main section#tres div#lado-direito-2 p{
     padding-bottom: 20px;
 }
 main section#tres div#lado-direito-2 div#beneficios-desafios{
+    border: 1px solid;
+    border-radius: 20px 20px 0 0;
     padding: 10px;
 
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+
+    margin: auto;
 }
 main section#tres div#lado-direito-2 div#beneficios{
-    width: 40%;
+    max-width: 608px;
     background-color: green;
 
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
     border-radius: 20px;
 }
 main section#tres div#lado-direito-2 div#desafios{
+    max-width: 608px;
     background-color: rgb(204, 63, 63);
-    width: 40%;
 
     padding: 20px;
     margin: 10px;
@@ -254,13 +261,19 @@ main section#tres div#lado-direito-2 div#exemplo{
     width: 100%;
     background-color: rgb(46, 61, 66);
     padding: 10px;
-    border-radius: 20px;
+    border: 1px solid;
+    border-radius: 0 0 20px 20px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
 }
-
+main section#tres div#lado-direito-2 div#exemplo h3{
+    padding: 10px 0;
+}
+main section#tres div#lado-direito-2 div#exemplo p{
+    
+}
 
 
 
@@ -281,8 +294,8 @@ main section#quatro{
 }
 main section#quatro h2{
     text-align: center;
-    font-weight: normal;
-    font-size: 30px;
+    font-weight: bolder;
+    font-size: 28px;
     padding: 10px 0;
 }
 main section#quatro div#imgquatro{
@@ -309,6 +322,7 @@ main section#cinco{
 main section#cinco h2{
     text-align: center;
     padding: 5px 0 20px 0;
+    font-size: 28px;
 }
 main section#cinco div#abrangente{
     display: flex;
@@ -318,11 +332,17 @@ main section#cinco div#abrangente{
 }
 main section#cinco div#secum, div#secdois, div#sectres{
     max-width: 280px;
-    padding-bottom: 20px;
+
+    margin-bottom: 10px;
+    padding: 20px;
+
+    border-radius: 20px;
+    border: 1px solid;
     
 }
 main section#cinco div#secum h3, div#secdois h3, div#sectres h3{
     font-weight: bold;
+    padding-bottom: 10px;
 }
 
 
@@ -340,6 +360,7 @@ main section#seis{
 main section#seis h2{
     text-align: center;
     padding-bottom: 20px;
+    font-size: 28px;
 }
 main section#seis div#abrangente-dois{
     display: flex;
@@ -384,23 +405,26 @@ main section#seis div#abrangente-dois div.foto-texto p{
 /*Mapas*/
 main section#sete{
     background-color: #4a5567;
-    padding: 20px 0;
+    padding: 20px;
 
 }
 main section#sete h2{
     text-align: center;
+    font-size: 28px;
 }
 main section#sete ul{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
 
-    padding: 10px 0 0 0;
+    padding: 10px 0;
 }
 main section#sete ul li{
     display: inline;
     text-align: center;
+
+    padding-bottom: 20px;
 }
 main section#sete ul li a{
     text-decoration: underline;
@@ -408,50 +432,86 @@ main section#sete ul li a{
 
     font-weight: bold;
 
-    padding: 0 20px 0 0;
-
-}
-main section#sete div#iframe{
-    max-width: 600px;
-    margin: auto;
-}
-main section#sete div#iframe iframe{
-    display: block;
-    margin: auto;
-
-    width: 100%;
 }
 
 
 
 
-
-
+/*Calculadora de impacto*/
 main section#oito{
-    padding: 20px 0;
+    background-color: #404952;
+    padding: 40px 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+main section#oito h2{
+    font-size: 28px;
+}
+main section#oito p{
+    padding: 15px 0;
+}
+main section#oito input[type=number]{
+    width: 100px;
+    height: 40px;
+
+    background-color: lightblue;
+    color: black;
+
+    border: 1px solid black;
+    border-radius: 5px;
+
+    padding: 10px;
+    margin: 10px 0 0 0;
+}
+main section#oito button{
+    background-color: rgb(39, 51, 55);
+    margin: 20px 0 0 0;
+
+    cursor: pointer;
+
+    border: 1px solid;
+    border-radius: 10px;
+
+    padding: 10px;
 }
 
 
 
 
-
-
-
+/*Ações diarias e seus impactos*/
 main section#nove{
 
 }
 main section#nove h2{
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    font-size: 28px;
+    padding: 20px 0;
+
+    font-weight: bolder;
 }
-main section#nove div.imagem{
-    max-width: 300px;
-    margin: auto;
+main section#nove div#paragrafos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
-main section#nove div.imagem img{
-    width: 100%;
+main section#nove div#paragrafos p{
+    background-color: rgb(159, 248, 159);
+    color: black;
+
+    border: 1px solid;
+    border-radius: 20px;
+
+    margin: 20px ;
+    padding: 20px;
+
+
+    text-align: justify;
+    line-height: 25px;
+
+    width: 500px;
 }
+
 
 
 
@@ -492,6 +552,4 @@ main section#nove div.imagem img{
     color: rgb(83, 223, 83);
     cursor: pointer;
   }
-
-
-
+  
