@@ -205,8 +205,8 @@ main section#tres div#beneficios-desafios{
     flex-flow: row wrap;
     justify-content: center;
 }
-main section#tres div#beneficios-desafios div#beneficios{
-    background-color: #cea675;
+main section#tres div#beneficios-desafios div#exemplo{
+    background-color: #beddef;
     color: black;
 
     max-width: 300px;
@@ -216,16 +216,53 @@ main section#tres div#beneficios-desafios div#beneficios{
 
     border: 1px solid;
     border-radius: 20px;
+    transition: 0.5s;
+}
+main section#tres div#beneficios-desafios div#exemplo:hover{
+    transition: 0.5s;
+    max-width: 90vw !important;
+}
+main section#tres div#beneficios-desafios div#exemplo div.icones{
+    max-width: 100px;
+    margin: auto;
+}
+main section#tres div#beneficios-desafios div#exemplo div.icones img{
+    width: 100%;
+}
+main section#tres div#beneficios-desafios div#beneficios{
+    background-color: #d1e2d0;
+    color: black;
+
+    max-width: 300px;
+
+    padding: 20px;
+    margin: -10px 20px 20px 20px;
+
+    border: 1px solid;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+main section#tres div#beneficios-desafios div#beneficios:hover{
+    max-width: 90vw !important;
+    transition: 0.5s;
+}
+main section#tres div#beneficios-desafios div#beneficios div.icones{
+    max-width: 100px;
+    margin: auto;
+}
+main section#tres div#beneficios-desafios div#beneficios div.icones img{
+    width: 100%;
 }
 main section#tres div#beneficios-desafios div#beneficios h3{
     font-size: 22px;
     padding-bottom: 10px;
+    text-align: center;
 }
 main section#tres div#beneficios-desafios div#beneficios p{
     padding: 10px 0;
 }
 main section#tres div#beneficios-desafios div#desafios{
-    background-color: #cea675;
+    background-color: #fdb6b0;
     color: black;
     
     max-width: 300px;
@@ -236,9 +273,21 @@ main section#tres div#beneficios-desafios div#desafios{
     border: 1px solid;
     border-radius: 20px;
 }
+main section#tres div#beneficios-desafios div#desafios:hover{
+    max-width: 90vw !important;
+    transition: 0.5s;
+}
+main section#tres div#beneficios-desafios div#desafios div.icones{
+    max-width: 100px;
+    margin: auto;
+}
+main section#tres div#beneficios-desafios div#desafios div.icones img{
+    width: 100%;
+}
 main section#tres div#beneficios-desafios div#desafios h3{
     padding-bottom: 10px;
     font-size: 22px;
+    text-align: center;
 }
 main section#tres div#beneficios-desafios div#desafios p{
     padding: 10px 0;
