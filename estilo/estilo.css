@@ -9,7 +9,7 @@ hr{
     display: none;
 }
 body{
-    background-color: #363f48;
+    background-color: #725737;
     color: white;
     position: relative;
 
@@ -17,7 +17,7 @@ body{
 }
 
 header{
-    background-color: #363f48;
+    background-color: #694410;
     max-width: 3000px;
     margin: auto;
 
@@ -79,10 +79,11 @@ main section#um{
 
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
 
-    padding: 40px 0;
+    padding: 40px 0 40px 40px;
+    margin-top: 20px;
 }
 main section#um h1{
     max-width: 500px;
@@ -90,7 +91,7 @@ main section#um h1{
     font-size: 35px !important;
     font-weight: bold;
 
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 main section#um p{
     max-width: 600px;
@@ -117,7 +118,7 @@ main section#um img{
 
 /*Importância dos materiais recicláveis*/
 main section#dois{
-    background-color: #404952;
+    background-color: #4e6c44;
 
     padding: 20px 30px;
 
@@ -196,12 +197,6 @@ main section#tres h2{
     font-size: 28px;
     padding: 10px 0 30px 10px;
 }
-main section#tres div#imagemtres{
-    max-width: 300px;
-}
-main section#tres div#imagemtres img{
-    width: 100%;
-}
 main section#tres p{
     max-width: 500px;
 }
@@ -211,9 +206,10 @@ main section#tres div#beneficios-desafios{
     justify-content: center;
 }
 main section#tres div#beneficios-desafios div#beneficios{
-    background-color: #008000;
+    background-color: #cea675;
+    color: black;
 
-    max-width: 500px;
+    max-width: 300px;
 
     padding: 20px;
     margin: -10px 20px 20px 20px;
@@ -229,9 +225,10 @@ main section#tres div#beneficios-desafios div#beneficios p{
     padding: 10px 0;
 }
 main section#tres div#beneficios-desafios div#desafios{
-    background-color: #cc3f3f;
+    background-color: #cea675;
+    color: black;
     
-    max-width: 500px;
+    max-width: 300px;
 
     padding: 20px;
     margin: -10px 20px 20px 20px;
