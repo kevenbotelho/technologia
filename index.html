@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="estilo/estilo.css">
     <link rel="stylesheet" href="estilo/reset.css">
     <link rel="stylesheet" href="estilo/media.css" media="screen and (max-width: 992px)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
     <title>Technologia | ReciclaFácil</title>
 </head>
@@ -16,7 +19,10 @@
         <div id="logo">
             <a href="/"><img src="imagens/logo/logo-sem-fundo.png" alt=""></a>
         </div>
-        <h1 style="margin-left: -30px;">ReciclaFácil</h1>
+        <div id="titulo">
+            <h1 style="margin-left: -30px;">recicla fácil </h1>
+            <h1 id="cop">COP30</h1>
+        </div>
         <nav>
             <div id="menu-celular">
                 <span class="material-symbols-outlined">menu</span>
@@ -36,7 +42,7 @@
         <section id="um" style="background-image: url(imagens/imagens/1imagem.png); background-position: center right; background-size: cover;">
             <div class="lado-direito" style="background-color: rgba(0, 0, 0, 0.342); padding: 20px; border-radius: 20px;">
                 <h1>Importância da reciclagem e reutilização</h1>
-                <p>A reciclagem e a reutilização de materiais são práticas fundamentais para a construção de uma sociedade mais sustentável, pois ajudam a reduzir o impacto ambiental causado pelo consumo excessivo e pelo descarte incorreto de resíduos. Além disso, essas ações incentivam o uso consciente dos recursos naturais e promovem mudanças positivas no modo como lidamos com o nosso lixo no dia a dia.</p>
+                <p>A reciclagem e a reutilização de materiais são práticas fundamentais para a construção de uma sociedade mais sustentável, pois ajudam a reduzir o impacto ambiental causado pelo consumo excessivo e pelo descarte incorreto de resíduos.</p>
             </div>
         </section>
         
@@ -181,8 +187,9 @@
                 <div id="secum">
                     <h3>✅ 1. Separe o lixo corretamente</h3>
                     <p>
-                        Tenha pelo menos dois lixos em casa: um para materiais recicláveis (papel, plástico, vidro e metal limpos) e outro para lixo orgânico (restos de comida, papel sujo, etc). <br> <br>
-                        👉 Dica extra: nada de misturar! Um material sujo pode contaminar todo o resto.</p>
+                        Tenha pelo menos dois lixos em casa: um para materiais recicláveis (papel, plástico, vidro e metal limpos) e outro para lixo orgânico (restos de comida, papel sujo, etc).
+                    </p>
+                    <p>👉 Dica extra: nada de misturar! Um material sujo pode contaminar todo o resto.</p>
                 </div>
                 <div id="secdois">
                     <h3>🧴 2. Lave os recicláveis antes de descartar</h3>
@@ -217,7 +224,6 @@
                         <img src="imagens/imagens/transformar2.png" alt="">
                     </div>
                     <p>Reciclar e Reutilizar: Pequenas ações, Grandes impactos</p>
-                    <hr>
                 </div>
             </div>
             
@@ -240,13 +246,13 @@
 
 
         <section id="oito">
-            <h2>Calculadora de Impacto Ambiental</h2>
-            <p>Quantas garrafas PET de 500 ml você recicla por semana?</p>
-            <input type="number" id="garrafas" min="0" placeholder="Ex: 10">
-            <button onclick="calcularImpacto()">Calcular Impacto</button>
-
-            <div id="resultado">
-
+            <div id="quadrado">
+                <h2>Calculadora de Impacto Ambiental</h2>
+                <p>Quantas garrafas PET de 500 ml você recicla por semana?</p>
+                <input type="number" id="garrafas" min="0" placeholder="Ex: 10">
+                <button onclick="calcularImpacto()">Calcular Impacto</button>
+                <div id="resultado">
+                </div>
             </div>
         </section>
 

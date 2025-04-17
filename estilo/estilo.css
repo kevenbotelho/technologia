@@ -29,9 +29,26 @@ header{
 
     position: sticky;
 
-    padding: 0 20px;
+    padding: 10px 20px 0 20px;
     
     top: 0;
+}
+header div#titulo{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+header div#titulo h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+}
+header div#titulo h1#cop{
+    font-family: 'Glass Antiqua';
+    transform: rotate(-25deg);
+    font-size: 25px;
+    margin-top: -25px;
+    padding-left: 10px;
 }
 header div#logo{
     max-width: 60px;
@@ -82,7 +99,7 @@ main section#um{
     justify-content: flex-start;
     align-items: center;
 
-    padding: 100px 0 40px 100px;
+    padding: 100px 0 90px 50px;
     margin-top: 20px;
 }
 main section#um h1{
@@ -155,7 +172,6 @@ main section#dois div.imagens div.local-onde-vai-as-imagens {
     height: 250px;
     flex-shrink: 0;
     white-space: normal;
-    overflow-x: scroll;
 
     padding: 20px;
     margin-top: 10px;
@@ -174,7 +190,7 @@ main section#dois div.img-pequena img{
 }
 main section#dois div.imagens div.local-onde-vai-as-imagens h3{
     color: rgb(255, 165, 165);
-    padding-bottom: 3px;
+    padding-bottom: 5px;
 }
 main section#dois div.imagens div.local-onde-vai-as-imagens p{
     
@@ -426,11 +442,11 @@ main section#seis div#abrangente-dois div.foto-texto div.foto img{
     border-radius: 20px;
 }
 main section#seis div#abrangente-dois div.foto-texto div.foto img {
-    transition: all 0.4s ease;
+    transition: all 0.1s ease;
   }
   
   main section#seis div#abrangente-dois div.foto-texto div.foto img:hover {
-    border: 10px solid #228B22;
+    border: 5px solid #228B22;
     box-shadow: 5px 5px 20px rgb(87, 87, 87);
   }
   
@@ -453,6 +469,14 @@ main section#sete{
 main section#sete h2{
     text-align: center;
     font-size: 28px;
+}
+main section#sete div.imagem{
+    max-width: 300px;
+    margin: auto;
+}
+main section#sete div.imagem img{
+    width: 100%;
+    border-radius: 10px;
 }
 main section#sete ul{
     display: flex;
@@ -481,11 +505,19 @@ main section#sete ul li a{
 
 /*Calculadora de impacto*/
 main section#oito{
-    background-color: #404952;
+    background-color: transparent;
     padding: 40px 20px;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+main section#oito div#quadrado{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+
 }
 main section#oito h2{
     font-size: 28px;

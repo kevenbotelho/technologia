@@ -26,3 +26,8 @@ select {
   background: transparent;
   box-sizing: border-box;
 }
+.glass-antiqua-regular {
+  font-family: "Glass Antiqua", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
