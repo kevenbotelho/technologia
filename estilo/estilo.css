@@ -135,11 +135,13 @@ main section#um img{
 
 /*Importância dos materiais recicláveis*/
 main section#dois{
-    background-color: #3a5033;
+    background-color: #243220;
 
     padding: 20px 10px;
 
     max-width: 1500px;
+
+    border-radius: 0 0 20px 20px;
 }
 main section#dois h2{
     text-align: center;
@@ -334,7 +336,7 @@ main section#tres div#exemplo p{
 /*Infografico Interativo*/
 main section#quatro{
     max-width: 1800px;
-    background-color: #725737;
+    background-color: rgb(84, 84, 84);
     border-bottom: 1px solid;
     border-top: 1px solid;
     padding-top: 10px;
@@ -349,7 +351,7 @@ main section#quatro div.imagens-juntas{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 main section#quatro div.imagens-juntas div.imagem{
     max-width: 300px;
@@ -392,14 +394,28 @@ main section#cinco div#secum, div#secdois, div#sectres{
     height: 300px;
 
     margin-bottom: 10px;
-    padding: 20px;
+    padding: 10px;
 
     border-radius: 20px;
     border: 1px solid;
+
+    background-color: white;
+    color: black;
+}
+main section#cinco div.imagem{
+    max-width: 80px;
+    margin: auto;
+}
+main section#cinco div.imagem img{
+    width: 100%;
 }
 main section#cinco div#secum h3, div#secdois h3, div#sectres h3{
     font-weight: bold;
     padding-bottom: 10px;
+    text-align: center;
+}
+main section#cinco p{
+    text-align: justify;
 }
 
 
