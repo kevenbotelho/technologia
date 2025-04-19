@@ -148,3 +148,51 @@
         border-radius: 20px;
     }
 }
+
+
+
+
+@media screen and (max-width:519px){
+    main section#quatro div.imagens p#meio{
+        order: 0;
+    }
+    main section#quatro{
+        padding-bottom: 20px;
+    }
+}
+
+
+
+@media screen and (max-width:270px){
+    header{
+        display: block;
+        text-align: center;
+    }
+    header div#logo{
+        display: none;
+    }
+    header div#titulo h1{
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width:237px){
+    main section#um > div{
+        margin: 0;
+    }
+    main section#um > div h1{
+        font-size: 0.5em;
+    }
+    main section#um > div p{
+        font-size: 0.7em;
+    }
+    main section#oito{
+        padding: 0;
+    }
+    main section#oito div#quadrado{
+        border: none;
+    }
+    *{
+        overflow: auto;
+    }
+}
