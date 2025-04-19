@@ -15,7 +15,6 @@ body{
 
     margin: auto;
 }
-
 header{
     background-color: #694410;
     max-width: 3000px;
@@ -48,33 +47,6 @@ header div#logo{
 }
 header div#logo img{
     width: 100%;
-}
-header nav{
-    
-}
-header nav ul{
-    display: flex;
-    flex-flow: row nowrap;
-}
-header nav ul li{
-    display: inline;
-    white-space: nowrap;
-
-    overflow: auto;
-    
-    padding-right: 5px;
-}
-header nav ul li a{
-    color: unset;
-
-    font-variant: small-caps;
-    display: none;
-}
-header nav div#menu-celular{
-    display: none;
-}
-header nav div#menu-celular span{
-    font-size: 30px;
 }
 main{
     margin: auto;
@@ -121,11 +93,6 @@ main section#um img{
     width: 100%;
     border-radius: 20px;
 }
-
-
-
-
-
 /*Importância dos materiais recicláveis*/
 main section#dois{
     background-color: #24322057;
@@ -172,30 +139,18 @@ main section#dois div.imagens div.local-onde-vai-as-imagens {
     margin-top: 10px;
     margin-right: 10px;
 }
-
-
-  
 main section#dois div.img-pequena{
     display: none;
     max-width: 50px;
 }
 main section#dois div.img-pequena img{
     width: 100%;
-    
 }
 main section#dois div.imagens div.local-onde-vai-as-imagens h3{
     color: rgb(255, 165, 165);
     padding-bottom: 5px;
 }
-main section#dois div.imagens div.local-onde-vai-as-imagens p{
-    
-}
-
-
-
-
 /*Energia Renovável*/
-
 main section#tres{
     display: flex;
     flex-flow: column nowrap;
@@ -231,12 +186,6 @@ main section#tres div#beneficios-desafios div#exemplo{
     border-radius: 20px;
     transition: 0.5s;
 }
-/*
-main section#tres div#beneficios-desafios div#exemplo:hover , main section#tres div#beneficios-desafios div#beneficios:hover , main section#tres div#beneficios-desafios div#desafios:hover{
-    transition: 0.3s;
-    max-width: 350px !important;
-}
-    */
 main section#tres div#beneficios-desafios div#exemplo div.icones{
     max-width: 100px;
     margin: auto;
@@ -316,10 +265,6 @@ main section#tres div#exemplo p{
     line-height: 23px;
     padding: 10px 0;
 }
-
-
-
-
 /*Infografico Interativo*/
 main section#quatro{
     display: flex;
@@ -365,8 +310,6 @@ main section#quatro div.imagens p{
 main section#quatro div.imagens p#meio{
     order: -1;
 }
-
-
 /*Guia Pratico - impactos da falta de reciclagem*/
 main section#cinco{
     padding: 20px 0;
@@ -412,9 +355,6 @@ main section#cinco div#secum h3, div#secdois h3, div#sectres h3{
 main section#cinco p{
     text-align: justify;
 }
-
-
-
 /*Series de videos*/
 main section#seis{
     background-color: #00464766;
@@ -465,13 +405,6 @@ main section#seis div#abrangente-dois div.foto-texto p{
     text-align: justify;
     padding-bottom: 20px;
 }
-
-
-
-
-
-
-
 /*Mapas*/
 main section#sete{
     padding: 20px;
@@ -511,10 +444,6 @@ main section#sete ul li a{
     font-weight: bold;
 
 }
-
-
-
-
 /*Calculadora de impacto*/
 main section#oito{
     background-color: transparent;
@@ -569,11 +498,6 @@ main section#oito button{
 
     padding: 10px;
 }
-
-
-
-
-
 footer{
     background-color: lightblue;
     color: rgb(84, 84, 84);
