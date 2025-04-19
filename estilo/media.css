@@ -10,6 +10,13 @@
     main section#um div.img{
         max-width: 270px;
     }
+    header div#titulo h1 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 30px;
+    }
+    header div#titulo h1 span{
+        display: none;
+    }
     /*Section tres - Energia renovavel */
     
 

@@ -20,8 +20,8 @@
             <a href="/"><img src="imagens/logo/logo-sem-fundo.png" alt=""></a>
         </div>
         <div id="titulo">
-            <h1 style="margin-left: -30px;">recicla fácil </h1>
-            <h1 id="cop">COP30</h1>
+            <h1 style="margin-left: -30px;">recicla fácil <span>- cop30</span></h1>
+            <h1 id="cop"></h1>
         </div>
         <nav>
             <div id="menu-celular">
@@ -37,7 +37,6 @@
         </nav>
     </header>
     
-
     <main>
         <section id="um" style="background-image: url(imagens/imagens/1imagem.png); background-position: center right; background-size: cover;">
             <div class="lado-direito" style="background-color: rgba(0, 0, 0, 0.342); padding: 20px; border-radius: 20px;">
@@ -167,22 +166,34 @@
         </section>
         
         <section id="quatro">
+            <!--
+            
+            
+            -->
             <h2>Impactos da Falta de Reciclagem</h2>
-            <div class="imagens-juntas">
-                <div class="imagem">
-                    <img src="imagens/imagens/barreira.jpeg" alt="">
-                    <p><span style="font-size: 30px;">&#x1F5D1;</span>Quando descartamos sem pensar...</p>
+            <div class="imagens">
+                <div id="imagem1">
+                    <img src="imagens/imagens/montanha-de-lixo.png" alt="">
                 </div>
-                <div class="imagem">
-                    <img src="imagens/imagens/tartarugacomendoplastico.png" alt="">
-                    <p><span style="font-size: 50px;">&#x1F422;</span> A natureza paga o preço</p>
+                <p>Essa imensa montanha de lixo mostra como o acúmulo descontrolado de resíduos cria um cenário de poluição que contamina solo, água e ar, agravando problemas como a liberação de gases tóxicos e a destruição de habitats naturais.</p>
+            </div>
+            <div class="imagens">
+                <div id="imagem2">
+                    <img src="imagens/imagens/efeito-estufa.png" alt="">
                 </div>
+                <p id="meio">O CO₂ das indústrias vira um “cobertor” extra na atmosfera, prende mais calor e faz a Terra esquentar.</p>
+            </div>
+            <div class="imagens">
+                <div id="imagem3">
+                    <img src="imagens/imagens/envenenamento-agua.png" alt="">
+                </div>
+                <p>A imagem mostra o escoamento de resíduos tóxicos contaminando o solo e formando poças de água poluída.</p>
             </div>
         </section>
 
 
         <section id="cinco">
-            <h2>Dicas Práticas <!--Guia prático--></h2>
+            <h2>Comece com Pequenas Ações <!--Guia prático--></h2>
             <div id="abrangente">
                 <div id="secum">
                     <div class="imagem">
@@ -197,7 +208,7 @@
                 </div>
                 <div id="secdois">
                     <div class="imagem">
-                        <img src="imagens/imagens/caixa-lixeiras.png" alt="">
+                        <img src="imagens/imagens/lavar.png" alt="">
                     </div>
                     <h3>🧴 Lave os recicláveis</h3>
                     <p>
@@ -206,7 +217,7 @@
                 </div>
                 <div id="sectres">
                     <div class="imagem">
-                        <img src="imagens/imagens/caixa-lixeiras.png" alt="">
+                        <img src="imagens/imagens/caixa.png" alt="">
                     </div>
                     <h3>📦 Reutilize </h3>
                     <p>
@@ -216,28 +227,6 @@
             </div>
         </section>
 
-
-
-
-        <section id="seis">
-            <h2>Videos produzido pela equipe</h2>
-            <div id="abrangente-dois">
-                <div class="foto-texto">
-                    <div class="foto" title="Clique para ver o video" onclick="abrirModal('videos/laranja.mp4')">
-                        <img src="imagens/imagens/transformar1.png" alt="">
-                    </div>
-                    <p>Do lixo ao luxo: Transformando materiais reciclavéis em novos produtos.</p>
-                    <hr>
-                </div>
-                <div class="foto-texto">
-                    <div class="foto" title="Clique para ver o video" onclick="abrirModal('videos/maca.mp4')">
-                        <img src="imagens/imagens/transformar2.png" alt="">
-                    </div>
-                    <p>Reciclar e Reutilizar: Pequenas ações, Grandes impactos</p>
-                </div>
-            </div>
-            
-        </section>
         
 
 
@@ -245,7 +234,16 @@
         <section id="sete">
             <h2>Mapa de pontos de coleta</h2>
             <div class="imagem">
-                <img src="imagens/imagens/pontosdecoleta.jpeg" alt="">
+                <img src="imagens/imagens/pontosdecoleta.jpeg" alt="" usemap="#mapa-coleta">
+                
+                <map name="mapa-coleta">
+                    <area target="_parent" alt="" title="" href="https://kevenbotelho.github.io/technologia/coleta/ecoponto.html" coords="82,133,88,123,99,113,101,101,95,89,85,85,73,86,67,95,65,109,70,119" shape="poly">
+                    <area target="_parent" alt="" title="" href="https://kevenbotelho.github.io/technologia/coleta/coleta.html" coords="206,221,213,209,223,201,225,189,220,177,211,173,199,175,189,184,187,196,193,206,201,213" shape="poly">
+
+                    <area target="_parent" alt="" title="" href="" coords="177,139,183,131,171,131,160,119,159,107,167,95,179,94,190,97,196,107,197,116,193,126" shape="poly">
+
+                    <area target="_parent" alt="" title="" href="" coords="112,81,118,68,103,69,127,62,131,47,125,37,117,33,103,34,95,43,92,54,94,62" shape="poly">
+                </map>
             </div>
             <ul>
                 <li><a href="coleta/ecoponto.html" target="_self">Ecoponto</a></li>
@@ -258,16 +256,42 @@
         <section id="oito">
             <div id="quadrado">
                 <h2>Calculadora de Impacto Ambiental</h2>
-                <p>Quantas garrafas PET de 500 ml você recicla por semana?</p>
-                <input type="number" id="garrafas" min="0" placeholder="Ex: 10">
-                <button onclick="calcularImpacto()">Calcular Impacto</button>
+                <div>
+                    <p>Quantas garrafas PET de 500 ml você recicla por semana?</p>
+                    <input type="number" id="garrafas" min="0" placeholder="Ex: 10">
+                    <button onclick="calcularImpacto()">Calcular Impacto</button>
+                </div>
                 <div id="resultado">
                 </div>
             </div>
         </section>
 
+
+
+
+
+
+        <section id="seis">
+            <h2>Videos produzido pela equipe</h2>
+            <div id="abrangente-dois">
+                <div class="foto-texto">
+                    <div class="foto" title="Clique para ver o video" onclick="abrirModal('videos/video1-demo.mp4')">
+                        <img src="imagens/imagens/transformar1.png" alt="">
+                    </div>
+                    <p>Do lixo ao luxo: Transformando materiais reciclavéis em novos produtos.</p>
+                    <hr>
+                </div>
+                <div class="foto-texto">
+                    <div class="foto" title="Clique para ver o video" onclick="abrirModal('videos/video2-demo.mp4')">
+                        <img src="imagens/imagens/transformar2.png" alt="">
+                    </div>
+                    <p>Reciclar e Reutilizar: Pequenas ações, Grandes impactos</p>
+                </div>
+            </div>
+            
+        </section>
     </main>
-    <footer style="text-align: center;">
+    <footer>
         Feito por Keven
     </footer>
 
@@ -318,5 +342,6 @@
   audio.volume = 0.3; 
       </script>
       
+
 </body>
 </html>

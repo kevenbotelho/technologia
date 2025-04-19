@@ -16,7 +16,7 @@ function calcularImpacto() {
     document.getElementById("resultado").innerHTML = `
       <p>Você economizou <strong>${petroleoEconomizado.toFixed(2)} mL</strong> de petróleo.</p>
       <p>E evitou a emissão de <strong>${co2Evitado.toFixed(2)} g</strong> de CO₂ na atmosfera!</p>
-      <p><small>Dados baseados na EPA e no Container Recycling Institute.</small></p>
+      <p><small>Estimativa baseada na EPA e no Container Recycling Institute.</small></p>
     `;
   }
   

@@ -41,13 +41,14 @@ header div#titulo{
 }
 header div#titulo h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 45px;
+    font-size: 35px;
 }
 header div#titulo h1#cop{
-    font-family: 'Glass Antiqua';
-    transform: rotate(-25deg);
+    /*font-family: 'Glass Antiqua';*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*transform: rotate(-25deg);
     font-size: 25px;
-    margin-top: -25px;
+    /*margin-top: -25px;*/
     padding-left: 10px;
 }
 header div#logo{
@@ -135,9 +136,9 @@ main section#um img{
 
 /*Importância dos materiais recicláveis*/
 main section#dois{
-    background-color: #243220;
+    background-color: #24322057;
 
-    padding: 20px 10px;
+    padding: 20px;
 
     max-width: 1500px;
 
@@ -226,7 +227,7 @@ main section#tres div#beneficios-desafios{
     justify-content: center;
 }
 main section#tres div#beneficios-desafios div#exemplo{
-    background-color: #beddef;
+    background-color: #beddefd4;
     color: black;
 
     max-width: 300px;
@@ -238,10 +239,12 @@ main section#tres div#beneficios-desafios div#exemplo{
     border-radius: 20px;
     transition: 0.5s;
 }
-main section#tres div#beneficios-desafios div#exemplo:hover{
-    transition: 0.5s;
-    max-width: 90vw !important;
+/*
+main section#tres div#beneficios-desafios div#exemplo:hover , main section#tres div#beneficios-desafios div#beneficios:hover , main section#tres div#beneficios-desafios div#desafios:hover{
+    transition: 0.3s;
+    max-width: 350px !important;
 }
+    */
 main section#tres div#beneficios-desafios div#exemplo div.icones{
     max-width: 100px;
     margin: auto;
@@ -250,7 +253,7 @@ main section#tres div#beneficios-desafios div#exemplo div.icones img{
     width: 100%;
 }
 main section#tres div#beneficios-desafios div#beneficios{
-    background-color: #d1e2d0;
+    background-color: #d1e2d0de;
     color: black;
 
     max-width: 300px;
@@ -260,10 +263,6 @@ main section#tres div#beneficios-desafios div#beneficios{
 
     border: 1px solid;
     border-radius: 20px;
-    transition: 0.5s;
-}
-main section#tres div#beneficios-desafios div#beneficios:hover{
-    max-width: 90vw !important;
     transition: 0.5s;
 }
 main section#tres div#beneficios-desafios div#beneficios div.icones{
@@ -282,7 +281,7 @@ main section#tres div#beneficios-desafios div#beneficios p{
     padding: 10px 0;
 }
 main section#tres div#beneficios-desafios div#desafios{
-    background-color: #fdb6b0;
+    background-color: #fdb6b0cb;
     color: black;
     
     max-width: 300px;
@@ -292,10 +291,6 @@ main section#tres div#beneficios-desafios div#desafios{
 
     border: 1px solid;
     border-radius: 20px;
-}
-main section#tres div#beneficios-desafios div#desafios:hover{
-    max-width: 90vw !important;
-    transition: 0.5s;
 }
 main section#tres div#beneficios-desafios div#desafios div.icones{
     max-width: 100px;
@@ -335,8 +330,13 @@ main section#tres div#exemplo p{
 
 /*Infografico Interativo*/
 main section#quatro{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
     max-width: 1800px;
-    background-color: rgb(84, 84, 84);
+    background-color: rgba(124, 124, 124, 0.198);
     border-bottom: 1px solid;
     border-top: 1px solid;
     padding-top: 10px;
@@ -345,35 +345,37 @@ main section#quatro h2{
     text-align: center;
     font-weight: bolder;
     font-size: 28px;
-    padding: 10px 0;
+    padding: 20px 0;
 }
-main section#quatro div.imagens-juntas{
+main section#quatro div.imagens{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 10px;
+
 }
-main section#quatro div.imagens-juntas div.imagem{
+main section#quatro div.imagens div#imagem1 , main section#quatro div.imagens div#imagem2 , main section#quatro div.imagens div#imagem3{
     max-width: 300px;
-    padding-bottom: 20px;
+    padding: 20px;
 }
-main section#quatro div.imagens-juntas div.imagem img{
+main section#quatro div.imagens div#imagem1 img , main section#quatro div.imagens div#imagem1 img , main section#quatro div.imagens div#imagem2 img , main section#quatro div.imagens div#imagem3 img{
     width: 100%;
     border-radius: 20px;
+    border: 1px solid;
 }
-
-
-main section#quatro p{
+main section#quatro div.imagens p{
     text-align: center;
-
-    margin: auto;
-    max-width: 600px;
+    max-width: 200px;
+    font-weight: bold;
+}
+main section#quatro div.imagens p#meio{
+    order: -1;
 }
 
 
-
-
-/*Guia Pratico - Dicas Praticas*/
+/*Guia Pratico - impactos da falta de reciclagem*/
 main section#cinco{
     padding: 20px 0;
     max-width: 1500px;
@@ -391,19 +393,19 @@ main section#cinco div#abrangente{
 }
 main section#cinco div#secum, div#secdois, div#sectres{
     max-width: 280px;
-    height: 300px;
+    height: 370px;
 
-    margin-bottom: 10px;
-    padding: 10px;
+    margin: 10px;
+    padding: 10px 15px;
 
     border-radius: 20px;
     border: 1px solid;
 
-    background-color: white;
+    background-color: rgb(229, 215, 215);
     color: black;
 }
 main section#cinco div.imagem{
-    max-width: 80px;
+    max-width: 100px;
     margin: auto;
 }
 main section#cinco div.imagem img{
@@ -422,7 +424,7 @@ main section#cinco p{
 
 /*Series de videos*/
 main section#seis{
-    background-color: #007071;
+    background-color: #006f7177;
     padding: 20px;
     display: flex;
     flex-flow: column nowrap;
@@ -485,6 +487,7 @@ main section#sete{
 main section#sete h2{
     text-align: center;
     font-size: 28px;
+    padding-bottom: 10px;
 }
 main section#sete div.imagem{
     max-width: 300px;
@@ -537,9 +540,17 @@ main section#oito div#quadrado{
 }
 main section#oito h2{
     font-size: 28px;
+    padding: 10px 0;
+    text-align: center;
 }
 main section#oito p{
     padding: 15px 0;
+}
+main section#oito div#quadrado div {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center; 
+    align-items: center;
 }
 main section#oito input[type=number]{
     width: 100px;
@@ -571,8 +582,9 @@ main section#oito button{
 
 
 footer{
-    background-color: black;
-    color: white;
+    background-color: lightblue;
+    color: rgb(84, 84, 84);
+    text-align: center;
 }
 
 
