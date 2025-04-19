@@ -39,17 +39,9 @@ header div#titulo{
     justify-content: center;
     align-items: center;
 }
-header div#titulo h1 {
+header div#titulo h1 , header div#titulo h1 span{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 35px;
-}
-header div#titulo h1#cop{
-    /*font-family: 'Glass Antiqua';*/
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    /*transform: rotate(-25deg);
-    font-size: 25px;
-    /*margin-top: -25px;*/
-    padding-left: 10px;
 }
 header div#logo{
     max-width: 60px;
@@ -379,6 +371,7 @@ main section#quatro div.imagens p#meio{
 main section#cinco{
     padding: 20px 0;
     max-width: 1500px;
+    border-bottom: 1px solid;
 }
 main section#cinco h2{
     text-align: center;
@@ -424,7 +417,7 @@ main section#cinco p{
 
 /*Series de videos*/
 main section#seis{
-    background-color: #006f7177;
+    background-color: #00464766;
     padding: 20px;
     display: flex;
     flex-flow: column nowrap;
@@ -464,7 +457,7 @@ main section#seis div#abrangente-dois div.foto-texto div.foto img {
   }
   
   main section#seis div#abrangente-dois div.foto-texto div.foto img:hover {
-    border: 5px solid #228B22;
+    border: 5px solid #1b6f1bc8;
     box-shadow: 5px 5px 20px rgb(87, 87, 87);
   }
   
@@ -525,7 +518,7 @@ main section#sete ul li a{
 /*Calculadora de impacto*/
 main section#oito{
     background-color: transparent;
-    padding: 40px 20px;
+    padding: 50px 20px;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
