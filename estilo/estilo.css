@@ -14,6 +14,8 @@ body{
     position: relative;
 
     margin: auto;
+
+    cursor: none;
 }
 header{
     background-color: #694410;
@@ -127,7 +129,8 @@ main section#dois div.imagens {
 
 }
 main section#dois div.imagens div.local-onde-vai-as-imagens {
-    background-color: #535a64;
+    background-color: #cbc3b4;
+    color: black;
     border-radius: 10px;
 
     width: 250px;
@@ -138,6 +141,8 @@ main section#dois div.imagens div.local-onde-vai-as-imagens {
     padding: 20px;
     margin-top: 10px;
     margin-right: 10px;
+
+    cursor: e-resize;
 }
 main section#dois div.img-pequena{
     display: none;
@@ -147,7 +152,7 @@ main section#dois div.img-pequena img{
     width: 100%;
 }
 main section#dois div.imagens div.local-onde-vai-as-imagens h3{
-    color: rgb(255, 165, 165);
+    color: rgb(82, 53, 53);
     padding-bottom: 5px;
 }
 /*Energia Renovável*/
