@@ -313,6 +313,69 @@ main section#quatro div.imagens p{
 main section#quatro div.imagens p#meio{
     order: -1;
 }
+
+
+
+
+
+/*Decomposição dos itens*/
+main section#decomposicao{
+    padding: 20px;
+    border-bottom: 1px solid;
+}
+main section#decomposicao h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+main section#decomposicao table{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    border-collapse: collapse;
+}
+main section#decomposicao table tr{
+    width: 800px !important;
+}
+main section#decomposicao table tr th{
+    margin: unset;
+    padding: 15px 25px;
+    border: 1px solid;
+    font-size: 18px;
+}
+main section#decomposicao table tr td{
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+
+}
+main section#decomposicao table tr td.tempo_decomposicao{
+    text-align: center;
+}
+main section#decomposicao table tr td.imagem{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    margin: unset;
+    padding: 0 40px;
+}
+main section#decomposicao table tr td div.imagem{
+    max-width: 90px;
+    padding-right: 10px;
+}
+main section#decomposicao table tr td div.imagem img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
 /*Guia Pratico - impactos da falta de reciclagem*/
 main section#cinco{
     padding: 20px 0;
